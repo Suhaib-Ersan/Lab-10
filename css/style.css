@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+
+h1 {
+    font-size: 38px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    width: 75%;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    
+}
+
+header {
+  position: relative;
+  top: 40px;
+  width: 100%;
+  height: 125px;
+  margin: auto;
+}
+
+#logo {
+  float: left;
+}
+
+header ul li {
+  float: right;
+  padding: 2px;
+}
+
+li > span {
+  float: right;
+  font-family: "Pacifico", cursive;
+  font-size: xx-large;
+  font-style: italic;
+  padding: 2px 8px;
+}
+
+li > span > p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  letter-spacing: -1px;
+}
+
+header ul > li:not(:first-child) {
+  position: relative;
+  top: 15px;
+}
+
+li:nth-child(3) {
+    margin-left: 12px;
+}
+
+body > :first-child > :nth-child(2) {
+  height: 15px;
+  width: 100%;
+  background-image: url("../img/hr-img.png");
+  background-repeat: repeat;
+  margin: auto;
+}
+
+#articleHeader > div > p {
+    font-size: small;
+    color: rgba(0, 0, 0, 0.493);
+}
+
+#articleHeader > :last-child {
+    float: right;
+}
+
+
+
+
+
+#footerSection {
+    color: rgba(0, 0, 0, 0.507);
+    width: 100%;
+    margin: 100px auto auto auto;
+    text-align: center;
+}
+
+#footerSection footer * {
+    padding: 20px;
+}
+
+#footerSection footer {
+    position: relative;
+    bottom: 47px;
+    line-height: 25px;
+}
+
